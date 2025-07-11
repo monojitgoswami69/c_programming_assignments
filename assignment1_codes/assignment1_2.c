@@ -1,4 +1,4 @@
-//2. Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and%)
+// 2. Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and%)
 
 #include <stdio.h>
 int main() {

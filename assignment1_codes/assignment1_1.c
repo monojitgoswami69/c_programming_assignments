@@ -1,4 +1,4 @@
-//1. Write a C program to enter two numbers and find their sum.
+// 1. Write a C program to enter two numbers and find their sum.
 
 #include <stdio.h>
 int main() {

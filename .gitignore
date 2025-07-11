@@ -1,8 +1,6 @@
 *.o
 *.out
 *.exe
-a.out
-main
 core
 *~
 *.swp
