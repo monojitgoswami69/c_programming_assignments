@@ -1,4 +1,27 @@
-<h1 align = "center"> Assignment - 1  </h1>
+<h1 align = "center" > ASSIGNMENT - 1  </h1>
+
+## 📘 Index
+
+### Assignment 
+1. [Write a C program to enter two numbers and find their sum.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#1-write-a-c-program-to-enter-two-numbers-and-find-their-sum)
+2. Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and %)
+3. Write a C program to enter length and breadth of a rectangle and radius of a circle. Find perimeter and area of rectangle and circumference and area of circle.
+4. Write a C program to swap two numbers. (with and without third variable)
+5. Write a C program to find maximum between three numbers using nested if-else.
+6. Write a C program to check whether a number is even or odd using if-else statement.
+7. Write a C program to check whether a year is leap or not using if-else statement.
+8. Write a C program to find all roots of a quadratic equation ax² + bx + c = 0 for all possible combinations of a, b and c.
+
+### Practice Codes
+9. Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary.
+10. The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.
+11. Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.
+12. Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.
+
+
+
+
+
 
 ## 1. Write a C program to enter two numbers and find their sum.
 
@@ -23,7 +46,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter two numbers: 10 20
 Sum = 30
 
@@ -71,7 +94,7 @@ int main(){
 }
 ```
 ### Sample Output
-```c
+```text
 Enter two numbers: 10 3
 10 + 3 = 13
 10 - 3 = 7
@@ -124,7 +147,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter length, breadth and radius: 10 5 7
 Rectangle - Area: 50.00, Perimeter: 30.00
 Circle - Area: 153.94, Circumference: 43.98
@@ -172,7 +195,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter the two numbers: 5 10
 With 3rd var: 10 5
 Without 3rd var: 5 10
@@ -221,7 +244,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter 3 numbers: 10 20 30
 Max = 30
 
@@ -257,7 +280,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter a number: 10
 Even
 
@@ -294,7 +317,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter a year: 2020
 Leap Year
 
@@ -352,7 +375,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Format of the equation is ax^2 + bx + c = 0
 Enter a, b and c: 1 -5 6
 Real and Unequal Roots: 3.00, 2.00
@@ -399,7 +422,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter basic salary: 5500
 Gross Salary = 10472.50
 
@@ -441,7 +464,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter length, breadth and radius: 10 5 7
 Rectangle - Area: 50.00, Perimeter: 30.00
 Circle - Area: 153.94, Circumference: 43.98
@@ -484,7 +507,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter the three sides: 3 4 5
 Area of triangle = 6.00
 
@@ -522,7 +545,7 @@ int main(){
 ```
 
 ### Sample Output
-```c
+```text
 Enter previous and current meter readings: 1250 1400
 Total Bill = Rs. 562.50
 
