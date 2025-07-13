@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <math.h>
-int main() {
+int main(){
     float a, b, c, disc, root1, root2;
     printf("Format of the equation is ax^2 + bx + c = 0\n");
     printf("Enter a, b and c: ");

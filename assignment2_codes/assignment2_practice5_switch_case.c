@@ -11,7 +11,7 @@ Marks Obtained      Grade
 Other Numbers      INVALID
 
 Write a C Program which accept a student’s marks as an input and then determine the grade of the students in that subject
-USING IF-ELSE-IF
+USING SWITCH-CASE
 */
 
 #include <stdio.h>
@@ -19,14 +19,19 @@ int main(){
     int marks;
     printf("Enter marks: ");
     scanf("%d", &marks);
-    if(marks >= 90 && marks <= 100) printf("Grade: O");
-    else if(marks >= 80) printf("Grade: E");
-    else if(marks >= 70) printf("Grade: A");
-    else if(marks >= 60) printf("Grade: B");
-    else if(marks >= 50) printf("Grade: C");
-    else if(marks >= 40) printf("Grade: D");
-    else if(marks >= 0) printf("Grade: F (FAILED)");
-    else printf("INVALID");
+    switch(marks / 10) {
+        case 10: case 9: 
+            printf("Grade: O"); break;
+        case 8: printf("Grade: E"); break;
+        case 7: printf("Grade: A"); break;
+        case 6: printf("Grade: B"); break;
+        case 5: printf("Grade: C"); break;
+        case 4: printf("Grade: D"); break;
+        case 3: case 2: case 1: case 0: 
+            printf("Grade: F (FAILED)"); 
+            break;
+        default: printf("INVALID");
+    }
     printf("\n");
     return 0;
 }

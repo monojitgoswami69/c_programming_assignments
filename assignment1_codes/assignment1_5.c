@@ -1,7 +1,7 @@
 // 5. Write a C program to find maximum between three numbers using nested if-else.
 
 #include <stdio.h>
-int main() {
+int main(){
     int a, b, c;
     printf("Enter 3 numbers: ");
     scanf("%d %d %d", &a, &b, &c);

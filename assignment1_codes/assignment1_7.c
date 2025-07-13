@@ -1,7 +1,7 @@
 // 6. Write a C program to check whether a number is even or odd using if-else statement.
 
 #include <stdio.h>
-int main() {
+int main(){
     int y;
     printf("Enter a year: ");
     scanf("%d", &y);
