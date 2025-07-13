@@ -1,27 +1,30 @@
 <h1 align = "center" > ASSIGNMENT - 1  </h1>
 
-## 📘 Index
+<div align= "center" id="toc">
+  <ul style="list-style: none">
+    <summary>
+      <h1>Index</h1>
+    </summary>
+  </ul>
+</div>
 
 ### Assignment 
 1. [Write a C program to enter two numbers and find their sum.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#1-write-a-c-program-to-enter-two-numbers-and-find-their-sum)
-2. Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and %)
-3. Write a C program to enter length and breadth of a rectangle and radius of a circle. Find perimeter and area of rectangle and circumference and area of circle.
-4. Write a C program to swap two numbers. (with and without third variable)
-5. Write a C program to find maximum between three numbers using nested if-else.
-6. Write a C program to check whether a number is even or odd using if-else statement.
-7. Write a C program to check whether a year is leap or not using if-else statement.
-8. Write a C program to find all roots of a quadratic equation ax² + bx + c = 0 for all possible combinations of a, b and c.
+2. [Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and %)](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#2-write-a-c-program-to-enter-two-numbers-and-perform-all-arithmetic-operations------and-)
+3. [Write a C program to enter length and breadth of a rectangle and radius of a circle. Find perimeter and area of rectangle and circumference and area of circle.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#3-write-a-c-program-to-enter-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-find-perimeter-and-area-of-rectangle-and-circumference-and-area-of-circle)
+4. [Write a C program to swap two numbers. (with and without third variable)](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#4-write-a-c-program-to-swap-two-numbers-with-and-without-third-variable)
+5. [Write a C program to find maximum between three numbers using nested if-else.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#5-write-a-c-program-to-find-maximum-between-three-numbers-using-nested-if-else)
+6. [Write a C program to check whether a number is even or odd using if-else statement.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#6-write-a-c-program-to-check-whether-a-number-is-even-or-odd-using-if-else-statement)
+7. [Write a C program to check whether a year is leap or not using if-else statement.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#7-write-a-c-program-to-check-whether-a-year-is-leap-or-not-using-if-else-statement)
+8. [Write a C program to find all roots of a quadratic equation ax² + bx + c = 0 for all possible combinations of a, b and c.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#8-write-a-c-program-to-find-all-roots-of-a-quadratic-equation-ax--bx--c--0-for-all-possible-combinations-of-a-b-and-c)
 
 ### Practice Codes
-9. Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary.
-10. The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.
-11. Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.
-12. Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.
+1. [Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary (take user input).](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#1-mr-sayan-ghosh-is-an-employee-of-a-private-firm-his-basic-is-rs-5500--now-the-dearness-allowance-is-74-of-his-basic-salary-and-house-rent-allowance-is-15-of-basic-salary-write-a-program-to-calculate-his-gross-salary-though-his-basic-salary-is-given-do-this-program-where-basic-is-taken-through-keyboard)
+2. [The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#2-the-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-are-input-through-keyboard-write-a-program-to-calculate-the-area-and-perimeter-of-the-rectangle-and-the-area-and-the-circumference-of-the-circle)
+3. [Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#3-write-a-c-program-to-find-area-of-a-triangle-area-of-triangle--ssasbsc-where-a-b-and-c-are-three-sides-of-the-triangle-and-s--a--b--c--2)
+4. [Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.](https://github.com/monojitgoswami69/C_programming_assignments/tree/main/assignment1_codes#4-write-a-c-program-to-calculate-and-print-electricity-bill-for-consumer-rs375-per-unit-given-the-following-information-previous-meter-reading-and-current-reading)
 
-
-
-
-
+<hr>
 
 ## 1. Write a C program to enter two numbers and find their sum.
 
@@ -63,7 +66,7 @@ Sum = -350
 Enter two numbers: 2147483647 1
 Sum = -2147483648
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
 
 ## 2. Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and %)
 
@@ -116,7 +119,7 @@ Enter two numbers: 0 7
 0 / 7 = 0.000000
 0 % 7 = 0
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
 
 ## 3. Write a C program to enter length and breadth of a rectangle and radius of a circle. Find perimeter and area of rectangle and circumference and area of circle.
 
@@ -160,7 +163,7 @@ Enter length, breadth and radius: 0 0 10
 Rectangle - Area: 0.00, Perimeter: 0.00
 Circle - Area: 314.16, Circumference: 62.83
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
 
 ## 4. Write a C program to swap two numbers. (with and without third variable)
 
@@ -208,7 +211,7 @@ Enter the two numbers: -3 12
 With 3rd var: 12 -3
 Without 3rd var: -3 12
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
 
 ## 5. Write a C program to find maximum between three numbers using nested if-else.
 
@@ -254,7 +257,7 @@ Max = 100
 Enter 3 numbers: -5 -10 -2
 Max = -2
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
  
 ## 6. Write a C program to check whether a number is even or odd using if-else statement.
 
@@ -290,7 +293,7 @@ Odd
 Enter a number: 0
 Even
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
  
 ## 7. Write a C program to check whether a year is leap or not using if-else statement.
 
@@ -327,7 +330,7 @@ Not a Leap Year
 Enter a year: 2000
 Leap Year
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
  
 ## 8. Write a C program to find all roots of a quadratic equation ax² + bx + c = 0 for all possible combinations of a, b and c.
 
@@ -388,7 +391,7 @@ Format of the equation is ax^2 + bx + c = 0
 Enter a, b and c: 2 3 5
 Imaginary Roots: -0.75 ± 1.39i
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
 
 
 <h1 align="center"> Practice Codes </h1>
@@ -433,7 +436,7 @@ Enter basic salary: 7500
 Gross Salary = 14242.50
 
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
  
 ## 2. The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.
 
@@ -478,7 +481,7 @@ Rectangle - Area: 0.00, Perimeter: 0.00
 Circle - Area: 314.16, Circumference: 62.83
 
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
  
 ## 3. Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.
 
@@ -517,7 +520,7 @@ Area of triangle = 29.52
 Enter the three sides: 6 6 6
 Area of triangle = 15.59
 ```
-<hr>
+<div align="right"><a href="#index">return to index</a></div><hr>
  
 ## 4. Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.
 
@@ -555,3 +558,4 @@ Total Bill = Rs. 225.00
 Enter previous and current meter readings: 4320 4500
 Total Bill = Rs. 675.00
 ```
+<div align="right"><a href="#index">return to index</a></div><hr>
