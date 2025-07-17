@@ -1,4 +1,4 @@
-// Write a C program to check whether a number is Perfect number or not.
+//9. Write a C program to check whether a number is Perfect number or not.
 
 #include <stdio.h>
 int main() {

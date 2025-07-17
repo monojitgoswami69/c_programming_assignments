@@ -1,4 +1,4 @@
-// Write a C program to find HCF (GCD) and LCM of two numbers.
+//5. Write a C program to find HCF (GCD) and LCM of two numbers.
 
 #include <stdio.h>
 

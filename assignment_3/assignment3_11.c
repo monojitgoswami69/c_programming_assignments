@@ -1,4 +1,4 @@
-// Write a C program to print Fibonacci series up to n terms.
+//11. Write a C program to print Fibonacci series up to n terms.
 
 #include <stdio.h>
 int main() {

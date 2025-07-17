@@ -1,4 +1,4 @@
-// Write a C program to find value of sin series 
+//13. Write a C program to find value of sin series 
 
 #include <stdio.h>
 #include <math.h>

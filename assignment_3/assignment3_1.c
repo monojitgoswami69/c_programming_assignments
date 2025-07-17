@@ -1,4 +1,4 @@
-// Write a C program to print natural numbers from 1 to n and also print their sum.
+//1. Write a C program to print natural numbers from 1 to n and also print their sum.
 
 #include <stdio.h>
 int main(){

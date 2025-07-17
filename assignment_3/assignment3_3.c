@@ -1,4 +1,4 @@
-// Write a C program to find all factors of a number.
+//3. Write a C program to find all factors of a number.
 
 #include <stdio.h>
 int main() {
