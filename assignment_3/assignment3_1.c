@@ -3,12 +3,8 @@
 #include <stdio.h>
 int main(){
     int n, i, s = 0;
-    printf("Enter a positive integer n: ");
+    printf("Enter n: ");
     scanf("%d", &n);
-    if (n <= 0){
-        printf("Please enter a positive integer.\n");
-        return 1;
-    }
     printf("Natural numbers from 1 to %d:\n", n);
     for (i = 1; i <= n; i++){
         printf("%d ", i);
