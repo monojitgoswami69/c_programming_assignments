@@ -10,7 +10,7 @@
         case 1: printf("Positive\n"); break;
         case 0:
             switch (num<0){
-                case 1: printf("Negetive\n"); break;
+                case 1: printf("Negative\n"); break;
                 case 0: printf("Zero\n"); break;
             }
     }

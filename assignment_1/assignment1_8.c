@@ -7,6 +7,10 @@ int main(){
     printf("Format of the equation is ax^2 + bx + c = 0\n");
     printf("Enter a, b and c: ");
     scanf("%f %f %f", &a, &b, &c);
+    if(a == 0) {
+        printf("Error: 'a' cannot be zero for a quadratic equation.\n");
+        return 1;
+    }
     disc = b*b - 4*a*c;
     if(disc > 0) {
         root1 = (-b + sqrt(disc)) / (2*a);

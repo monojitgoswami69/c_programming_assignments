@@ -1,30 +1,29 @@
-<h1 align = "center" > ASSIGNMENT - 1  </h1>
+<h1 align="center">ASSIGNMENT - 1</h1>
 
-<div align= "center" id="toc">
-  <ul style="list-style: none">
-    <summary>
-      <h1>Index</h1>
-    </summary>
-  </ul>
+<div align="center" id="index">
+  <h2> Table of Contents</h2>
 </div>
 
-### Assignment 
-1. [Write a C program to enter two numbers and find their sum.](#1-write-a-c-program-to-enter-two-numbers-and-find-their-sum)
-2. [Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and %)](#2-write-a-c-program-to-enter-two-numbers-and-perform-all-arithmetic-operations------and-)
-3. [Write a C program to enter length and breadth of a rectangle and radius of a circle. Find perimeter and area of rectangle and circumference and area of circle.](#3-write-a-c-program-to-enter-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-find-perimeter-and-area-of-rectangle-and-circumference-and-area-of-circle)
-4. [Write a C program to swap two numbers. (with and without third variable)](#4-write-a-c-program-to-swap-two-numbers-with-and-without-third-variable)
-5. [Write a C program to find maximum between three numbers using nested if-else.](#5-write-a-c-program-to-find-maximum-between-three-numbers-using-nested-if-else)
-6. [Write a C program to check whether a number is even or odd using if-else statement.](#6-write-a-c-program-to-check-whether-a-number-is-even-or-odd-using-if-else-statement)
-7. [Write a C program to check whether a year is leap or not using if-else statement.](#7-write-a-c-program-to-check-whether-a-year-is-leap-or-not-using-if-else-statement)
-8. [Write a C program to find all roots of a quadratic equation ax² + bx + c = 0 for all possible combinations of a, b and c.](#8-write-a-c-program-to-find-all-roots-of-a-quadratic-equation-ax--bx--c--0-for-all-possible-combinations-of-a-b-and-c)
+<div align="center">
 
-### Practice Codes
-1. [Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary (take user input).](#1-mr-sayan-ghosh-is-an-employee-of-a-private-firm-his-basic-is-rs-5500--now-the-dearness-allowance-is-74-of-his-basic-salary-and-house-rent-allowance-is-15-of-basic-salary-write-a-program-to-calculate-his-gross-salary-though-his-basic-salary-is-given-do-this-program-where-basic-is-taken-through-keyboard)
-2. [The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.](#2-the-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-are-input-through-keyboard-write-a-program-to-calculate-the-area-and-perimeter-of-the-rectangle-and-the-area-and-the-circumference-of-the-circle)
-3. [Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.](#3-write-a-c-program-to-find-area-of-a-triangle-area-of-triangle--ssasbsc-where-a-b-and-c-are-three-sides-of-the-triangle-and-s--a--b--c--2)
-4. [Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.](#4-write-a-c-program-to-calculate-and-print-electricity-bill-for-consumer-rs375-per-unit-given-the-following-information-previous-meter-reading-and-current-reading)
+|  **Assignment Programs** |  **Practice Problems** |
+|---|---|
+| [**#1** Sum of Two Numbers](#1-write-a-c-program-to-enter-two-numbers-and-find-their-sum) | [**#1** Gross Salary Calculator](#1-mr-sayan-ghosh-is-an-employee-of-a-private-firm-his-basic-is-rs-5500--now-the-dearness-allowance-is-74-of-his-basic-salary-and-house-rent-allowance-is-15-of-basic-salary-write-a-program-to-calculate-his-gross-salary-though-his-basic-salary-is-given-do-this-program-where-basic-is-taken-through-keyboard) |
+| [**#2** Arithmetic Operations](#2-write-a-c-program-to-enter-two-numbers-and-perform-all-arithmetic-operations------and-) | [**#2** Rectangle & Circle Calculator](#2-the-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-are-input-through-keyboard-write-a-program-to-calculate-the-area-and-perimeter-of-the-rectangle-and-the-area-and-the-circumference-of-the-circle) |
+| [**#3** Rectangle & Circle Geometry](#3-write-a-c-program-to-enter-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-find-perimeter-and-area-of-rectangle-and-circumference-and-area-of-circle) | [**#3** Triangle Area (Heron's Formula)](#3-write-a-c-program-to-find-area-of-a-triangle-area-of-triangle--ssasbsc-where-a-b-and-c-are-three-sides-of-the-triangle-and-s--a--b--c--2) |
+| [**#4** Number Swapping](#4-write-a-c-program-to-swap-two-numbers-with-and-without-third-variable) | [**#4** Electricity Bill Calculator](#4-write-a-c-program-to-calculate-and-print-electricity-bill-for-consumer-rs375-per-unit-given-the-following-information-previous-meter-reading-and-current-reading) |
+| [**#5** Maximum of Three Numbers](#5-write-a-c-program-to-find-maximum-between-three-numbers-using-nested-if-else) |  |
+| [**#6** Even/Odd Checker](#6-write-a-c-program-to-check-whether-a-number-is-even-or-odd-using-if-else-statement) |  |
+| [**#7** Leap Year Checker](#7-write-a-c-program-to-check-whether-a-year-is-leap-or-not-using-if-else-statement) |  |
+| [**#8** Quadratic Equation Solver](#8-write-a-c-program-to-find-all-roots-of-a-quadratic-equation-ax²--bx--c--0-for-all-possible-combinations-of-a-b-and-c) |  |
+
+</div>
+
+> ### **Note** - All programs include algorithms, source code, and sample outputs
 
 <hr>
+
+<h1 align="center">Assignment Programs</h1>
 
 ## 1. Write a C program to enter two numbers and find their sum.
 
@@ -77,10 +76,12 @@ Sum = -2147483648
 4. Perform addition: `a + b`  
 5. Perform subtraction: `a - b`  
 6. Perform multiplication: `a * b`  
-7. Perform division: `a / b` (typecast to float)  
-8. Perform modulus: `a % b`  
-9. Display all results  
-10. STOP
+7. Check if `b ≠ 0`:
+   - If true, perform division: `a / b` (typecast to float)  
+   - If true, perform modulus: `a % b`
+   - If false, display "Division/Modulus by zero is undefined"
+8. Display all results  
+9. STOP
 ### Source Code
 ```c
 #include <stdio.h>
@@ -91,8 +92,13 @@ int main(){
     printf("%d + %d = %d\n", a, b, a + b);
     printf("%d - %d = %d\n", a, b, a - b);
     printf("%d x %d = %d\n", a, b, a * b);
-    printf("%d / %d = %f\n", a, b, (float)a / b);
-    printf("%d %% %d = %d\n", a, b, a % b);
+    if(b != 0) {
+        printf("%d / %d = %.6f\n", a, b, (float)a / b);
+        printf("%d %% %d = %d\n", a, b, a % b);
+    } else {
+        printf("Division by zero is undefined.\n");
+        printf("Modulus by zero is undefined.\n");
+    }
     return 0;
 }
 ```
@@ -112,12 +118,12 @@ Enter two numbers: 20 -5
 20 / -5 = -4.000000
 20 % -5 = 0
 
-Enter two numbers: 0 7
-0 + 7 = 7
-0 - 7 = -7
-0 x 7 = 0
-0 / 7 = 0.000000
-0 % 7 = 0
+Enter two numbers: 7 0
+7 + 0 = 7
+7 - 0 = 7
+7 x 0 = 0
+Division by zero is undefined.
+Modulus by zero is undefined.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
@@ -236,10 +242,10 @@ int main(){
     scanf("%d %d %d", &a, &b, &c);
     // using ternary(one liner) -> max = a>b?(a>c?a:c):b>c?b:c;
     if(a > b) {
-        if(a > c) printf("Max = %d", a);
+        if(a > c) printf("Max = %d\n", a);
         else printf("Max = %d\n", c);
     } else {
-        if(b > c) printf("Max = %d", b);
+        if(b > c) printf("Max = %d\n", b);
         else printf("Max = %d\n", c);
     }
     return 0; 
@@ -338,18 +344,19 @@ Leap Year
 1. START  
 2. Display the format: `ax² + bx + c = 0`  
 3. Prompt the user to enter coefficients `a`, `b`, and `c`  
-4. Compute discriminant: `disc = b² - 4ac`  
-5. If `disc > 0`, compute two **real and unequal** roots:  
+4. Check if `a = 0` (not a quadratic equation), display error and exit  
+5. Compute discriminant: `disc = b² - 4ac`  
+6. If `disc > 0`, compute two **real and unequal** roots:  
    - `root1 = (-b + √disc) / (2a)`  
    - `root2 = (-b - √disc) / (2a)`  
-6. Else if `disc == 0`, compute one **real and equal** root:  
+7. Else if `disc == 0`, compute one **real and equal** root:  
    - `root = -b / (2a)`  
-7. Else compute two **imaginary** roots:  
+8. Else compute two **imaginary** roots:  
    - `real = -b / (2a)`  
    - `imag = √(-disc) / (2a)`  
    - Roots: `real ± imag*i`  
-8. Display the result  
-9. STOP
+9. Display the result  
+10. STOP
 
 ### Source Code
 ```c
@@ -360,6 +367,10 @@ int main(){
     printf("Format of the equation is ax^2 + bx + c = 0\n");
     printf("Enter a, b and c: ");
     scanf("%f %f %f", &a, &b, &c);
+    if(a == 0) {
+        printf("Error: 'a' cannot be zero for a quadratic equation.\n");
+        return 1;
+    }
     disc = b*b - 4*a*c;
     if(disc > 0) {
         root1 = (-b + sqrt(disc)) / (2*a);
@@ -390,11 +401,15 @@ Real and Equal Root: 3.00
 Format of the equation is ax^2 + bx + c = 0
 Enter a, b and c: 2 3 5
 Imaginary Roots: -0.75 ± 1.39i
+
+Format of the equation is ax^2 + bx + c = 0
+Enter a, b and c: 0 2 1
+Error: 'a' cannot be zero for a quadratic equation.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
 
-<h1 align="center"> Practice Codes </h1>
+<h1 align="center">Practice Problems</h1>
 
 
 ## 1. Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary. [Though his basic salary is given, do this program where basic is taken through keyboard].
@@ -488,11 +503,14 @@ Circle - Area: 314.16, Circumference: 62.83
 ### Algorithm
 1. START  
 2. Prompt the user to enter the three sides of the triangle: `a`, `b`, `c`  
-3. Calculate the semi-perimeter: `s = (a + b + c) / 2`  
-4. Apply Heron's formula:  
+3. Validate if the sides form a valid triangle using triangle inequality:
+   - Check if `a + b > c`, `b + c > a`, and `a + c > b`
+   - If not valid, display error and exit
+4. Calculate the semi-perimeter: `s = (a + b + c) / 2`  
+5. Apply Heron's formula:  
    - `area = √(s * (s - a) * (s - b) * (s - c))`  
-5. Display the calculated area  
-6. STOP
+6. Display the calculated area  
+7. STOP
 
 ### Source Code
 ```c
@@ -502,6 +520,10 @@ int main(){
     float a, b, c, s, area;
     printf("Enter the three sides: ");
     scanf("%f %f %f", &a, &b, &c);
+    if(a + b <= c || b + c <= a || a + c <= b) {
+        printf("Error: The given sides do not form a valid triangle.\n");
+        return 1;
+    }
     s = (a + b + c) / 2;
     area = sqrt(s*(s - a)*(s - b)*(s - c));
     printf("Area of triangle = %.2f\n", area);
@@ -519,6 +541,9 @@ Area of triangle = 29.52
 
 Enter the three sides: 6 6 6
 Area of triangle = 15.59
+
+Enter the three sides: 1 2 5
+Error: The given sides do not form a valid triangle.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
  
@@ -527,10 +552,12 @@ Area of triangle = 15.59
 ### Algorithm
 1. START  
 2. Prompt the user to enter the **previous** and **current** meter readings  
-3. Calculate the number of units consumed: `unit = current - previous`  
-4. Compute the bill amount: `bill = unit * 3.75`  
-5. Display the total bill  
-6. STOP
+3. Validate that current reading ≥ previous reading
+   - If not, display error and exit
+4. Calculate the number of units consumed: `unit = current - previous`  
+5. Compute the bill amount: `bill = unit * 3.75`  
+6. Display the units consumed and total bill  
+7. STOP
 
 ### Source Code
 ```c
@@ -540,8 +567,13 @@ int main(){
     float unit, bill;
     printf("Enter previous and current meter readings: ");
     scanf("%d %d", &prev, &curr);
+    if(curr < prev) {
+        printf("Error: Current reading cannot be less than previous reading.\n");
+        return 1;
+    }
     unit = curr - prev;
     bill = unit * 3.75;
+    printf("Units consumed: %.0f\n", unit);
     printf("Total Bill = Rs. %.2f\n", bill);
     return 0;
 }
@@ -550,12 +582,18 @@ int main(){
 ### Sample Output
 ```text
 Enter previous and current meter readings: 1250 1400
+Units consumed: 150
 Total Bill = Rs. 562.50
 
 Enter previous and current meter readings: 800 860
+Units consumed: 60
 Total Bill = Rs. 225.00
 
 Enter previous and current meter readings: 4320 4500
+Units consumed: 180
 Total Bill = Rs. 675.00
+
+Enter previous and current meter readings: 1000 900
+Error: Current reading cannot be less than previous reading.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>

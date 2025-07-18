@@ -5,12 +5,12 @@ int main(){
     int a, b, c;
     printf("Enter 3 numbers: ");
     scanf("%d %d %d", &a, &b, &c);
-// using ternary(one liner) -> max = a>b?(a>c?a:c):b>c?b:c;
+    // using ternary(one liner) -> max = a>b?(a>c?a:c):b>c?b:c;
     if(a > b) {
-        if(a > c) printf("Max = %d", a);
+        if(a > c) printf("Max = %d\n", a);
         else printf("Max = %d\n", c);
     } else {
-        if(b > c) printf("Max = %d", b);
+        if(b > c) printf("Max = %d\n", b);
         else printf("Max = %d\n", c);
     }
     return 0; 
