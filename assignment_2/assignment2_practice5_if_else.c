@@ -19,7 +19,8 @@ int main(){
     int marks;
     printf("Enter marks: ");
     scanf("%d", &marks);
-    if(marks >= 90 && marks <= 100) printf("Grade: O");
+    if (marks>100) printf("INVALID");
+    else if(marks >= 90) printf("Grade: O");
     else if(marks >= 80) printf("Grade: E");
     else if(marks >= 70) printf("Grade: A");
     else if(marks >= 60) printf("Grade: B");
