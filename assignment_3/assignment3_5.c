@@ -17,5 +17,3 @@ int main() {
     printf("LCM of %d and %d = %d\n", num1, num2, lcm);
     return 0;
 }
-    
-

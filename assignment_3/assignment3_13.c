@@ -14,7 +14,6 @@ int main() {
         int exponent = 2*i-1;
         if (i == 1) factorial = 1;
         else factorial *= (2*i-2) * (2*i-1);
-        printf("%f ",factorial);
         term = sign * pow(x, exponent) / factorial;
         sum += term;
         sign *= -1;

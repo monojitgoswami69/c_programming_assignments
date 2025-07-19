@@ -66,6 +66,12 @@ int main(){
 ```
 Enter an alphabet: e
 Vowel
+
+Enter an alphabet: B
+Consonant
+
+Enter an alphabet: 5
+invalid input
 ```
 
 <div align="right"><a href="#index">return to index</a></div><hr>

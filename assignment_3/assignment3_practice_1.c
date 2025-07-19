@@ -1,4 +1,4 @@
-//1. Write a C program to swap first and last len of a number.
+//1. Write a C program to swap first and last digits of a number.
 
 #include <stdio.h>
 #include <math.h>
@@ -17,6 +17,6 @@ int main() {
     num%=multiplier;
     num/=10;
     num = last * multiplier + num * 10 + first;
-    printf("Number after swapping first and last len: %d\n", num);
+    printf("Number after swapping first and last digits: %d\n", num);
     return 0;
 }
