@@ -1,9 +1,6 @@
+*
+!*/
+!*.*
 *.o
 *.out
 *.exe
-core
-*~
-*.swp
-.vscode/
-.DS_Store
-Thumbs.db
