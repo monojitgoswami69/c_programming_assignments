@@ -8,7 +8,7 @@ This repository contains all the source code you need for your C programming ass
 ## What You Need
 
 - A C compiler (like GCC)
-- An IDE — I recommend **Visual Studio Code (VS Code)**
+- An CE/IDE — I recommend **Visual Studio Code (VS Code)**
 - Basic terminal or command line access
 
 ---
@@ -24,7 +24,7 @@ This repository contains all the source code you need for your C programming ass
 
 ---
 
-## 🪟 Windows Setup
+## Windows Setup
 
 ### 🔧 Install GCC Compiler
 
@@ -80,7 +80,7 @@ This repository contains all the source code you need for your C programming ass
    ```
 ---
 
-## 🐧 Linux Setup (All Distros)
+## Linux Setup (All Distros)
 
 ### For Ubuntu/Debian-based
 
@@ -111,7 +111,7 @@ gcc --version
 
 ---
 
-## 🍏 macOS Setup
+## macOS Setup
 
 1. Open Terminal
 2. Install the Xcode Command Line Tools:
@@ -128,7 +128,7 @@ gcc --version
 
 ---
 
-## 💻 Writing and Running C Programs
+## Writing and Running C Programs
 
 ### Write/Edit Your Code
 
@@ -139,14 +139,14 @@ gcc --version
 
 Use the integrated terminal in VS Code (`Ctrl + `` `) or system terminal.
 
-#### 👉 Windows (MinGW or MSYS2)
+#### Windows (MinGW or MSYS2)
 
 ```cmd
 gcc filename.c -o filename.exe -lm
 ./filename.exe
 ```
 
-#### 👉 Linux / macOS
+#### Linux / macOS
 
 ```bash
 gcc filename.c -o filename -lm
@@ -157,15 +157,24 @@ gcc filename.c -o filename -lm
 
 ---
 
-## 🚀 VS Code Tips for Beginners
+## VS Code Tips for Beginners
 
 1. Open your folder containing `.c` files in VS Code (`File → Open Folder`)
 2. Open the terminal inside VS Code:
    - `Ctrl + ~` (tilde) or `View → Terminal`
 3. Compile and run as shown above
-4. To quickly run your code, click the ▶️ button in the top-right of the code window (only available after installing the C/C++ extension)
+4. **Optional but easier:** Install the [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) extension  
+   - After installing, you can run your `.c` file directly with:
+     - Right-click → **Run Code**  
+     - Or use the shortcut `Ctrl + Alt + N`  
+   - Keybinds for Code Runner can be changed anytime from **VS Code Preferences → Keyboard Shortcuts**  
+   - This saves you from manually typing `gcc` commands each time
+5. VS Code also provides a ▶️ run/debug button in the top-right (after installing the C/C++ extension).  
+   - However, the built-in debugger is often **frustrating for beginners** because it requires correct setup of `tasks.json` and `launch.json`, and behaves differently across platforms (Windows MinGW vs Linux vs macOS).  
+   - Common issues include wrong paths, missing compiler configs, or limitations in GDB/LLDB that cause breakpoints or stepping to fail.  
+   - Recommended approach: stick to **Code Runner** or **manual compilation** for a more stable experience when starting out.
 
-> 🛠️ **First Time Only**: When you click the run button for the first time in a project, VS Code will prompt you to select a compiler.  
+> 🛠️ **First Time Only**: When you click the run button or set up debugging for the first time in a project, VS Code will prompt you to select a compiler.  
 >   - Select **`GCC (MinGW)`** if you're on Windows with MinGW  
 >   - Select **`g++`** or **`gcc`** based on your platform and installation  
 >   - This sets up your `tasks.json` and `launch.json` files automatically
@@ -178,7 +187,7 @@ gcc filename.c -o filename -lm
 | ------------------------ | --------------------------------------------------------- |
 | `gcc not found`          | Install GCC properly, and ensure it's in PATH (Windows)  |
 | `Permission denied`      | On Linux/macOS, use `chmod +x filename`                  |
-| Program closes instantly | Add `getchar();` or run from terminal (not double-click) |
+| Program closes instantly | run from terminal (not double-click) |
 
 ---
 
