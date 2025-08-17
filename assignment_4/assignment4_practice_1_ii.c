@@ -1,4 +1,5 @@
-/* 1. Write a C program for the following pattern
+/* 
+Write a C program for the following pattern
 D D D D
   C C C
     B B
