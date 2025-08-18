@@ -6,9 +6,8 @@
 1   3   3   1 (Up to n numbers of row) 
 */
  
-//# Logic: Each element C(i,j) = C(i,j-1) * (i - j + 1) / j with C(i,0)=1
-#include <stdio.h>
 
+#include <stdio.h>
 int main(void) {
   int n;
   printf("Enter the number of rows: ");

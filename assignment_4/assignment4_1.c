@@ -3,7 +3,7 @@
 * 
 * * 
 * * * 
-* * * * (Up to n numbers of row)
+* * * * (Up to n numbers of rows)
 */
 
 #include <stdio.h>
