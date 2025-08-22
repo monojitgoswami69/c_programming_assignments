@@ -8,14 +8,14 @@
 
 |  **Assignment Programs** |  **Practice Problems** |
 |---|---|
-| [**#1** Sum of Two Numbers](#1-write-a-c-program-to-enter-two-numbers-and-find-their-sum) | [**#1** Gross Salary Calculator](#1-mr-sayan-ghosh-is-an-employee-of-a-private-firm-his-basic-is-rs-5500--now-the-dearness-allowance-is-74-of-his-basic-salary-and-house-rent-allowance-is-15-of-basic-salary-write-a-program-to-calculate-his-gross-salary-though-his-basic-salary-is-given-do-this-program-where-basic-is-taken-through-keyboard) |
-| [**#2** Arithmetic Operations](#2-write-a-c-program-to-enter-two-numbers-and-perform-all-arithmetic-operations------and-) | [**#2** Rectangle & Circle Calculator](#2-the-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-are-input-through-keyboard-write-a-program-to-calculate-the-area-and-perimeter-of-the-rectangle-and-the-area-and-the-circumference-of-the-circle) |
-| [**#3** Rectangle & Circle Geometry](#3-write-a-c-program-to-enter-length-and-breadth-of-a-rectangle-and-radius-of-a-circle-find-perimeter-and-area-of-rectangle-and-circumference-and-area-of-circle) | [**#3** Triangle Area (Heron's Formula)](#3-write-a-c-program-to-find-area-of-a-triangle-area-of-triangle--ssasbsc-where-a-b-and-c-are-three-sides-of-the-triangle-and-s--a--b--c--2) |
-| [**#4** Number Swapping](#4-write-a-c-program-to-swap-two-numbers-with-and-without-third-variable) | [**#4** Electricity Bill Calculator](#4-write-a-c-program-to-calculate-and-print-electricity-bill-for-consumer-rs375-per-unit-given-the-following-information-previous-meter-reading-and-current-reading) |
-| [**#5** Maximum of Three Numbers](#5-write-a-c-program-to-find-maximum-between-three-numbers-using-nested-if-else) |  |
-| [**#6** Even/Odd Checker](#6-write-a-c-program-to-check-whether-a-number-is-even-or-odd-using-if-else-statement) |  |
-| [**#7** Leap Year Checker](#7-write-a-c-program-to-check-whether-a-year-is-leap-or-not-using-if-else-statement) |  |
-| [**#8** Quadratic Equation Solver](#8-write-a-c-program-to-find-all-roots-of-a-quadratic-equation-ax²--bx--c--0-for-all-possible-combinations-of-a-b-and-c) |  |
+| [**#1** Sum of Two Numbers](#assignment1) | [**#1** Gross Salary Calculator](#practice1) |
+| [**#2** Arithmetic Operations](#assignment2) | [**#2** Rectangle & Circle Calculator](#practice2) |
+| [**#3** Rectangle & Circle Geometry](#assignment3) | [**#3** Triangle Area (Heron's Formula)](#practice3) |
+| [**#4** Number Swapping](#assignment4) | [**#4** Electricity Bill Calculator](#practice4) |
+| [**#5** Maximum of Three Numbers](#assignment5) |  |
+| [**#6** Even/Odd Checker](#assignment6) |  |
+| [**#7** Leap Year Checker](#assignment7) |  |
+| [**#8** Quadratic Equation Solver](#assignment8) |  |
 
 </div>
 
@@ -25,6 +25,7 @@
 
 <h1 align="center">Assignment Programs</h1>
 
+<a id="assignment1"></a>
 ## 1. Write a C program to enter two numbers and find their sum.
 
 ### Algorithm
@@ -67,6 +68,7 @@ Sum = -2147483648
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment2"></a>
 ## 2. Write a C program to enter two numbers and perform all arithmetic operations (+, -, *, / and %)
 
 ### Algorithm
@@ -127,6 +129,7 @@ Modulus by zero is undefined.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment3"></a>
 ## 3. Write a C program to enter length and breadth of a rectangle and radius of a circle. Find perimeter and area of rectangle and circumference and area of circle.
 
 ### Algorithm
@@ -171,6 +174,7 @@ Circle - Area: 314.16, Circumference: 62.83
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment4"></a>
 ## 4. Write a C program to swap two numbers. (with and without third variable)
 
 ### Algorithm
@@ -219,6 +223,7 @@ Without 3rd var: -3 12
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment5"></a>
 ## 5. Write a C program to find maximum between three numbers using nested if-else.
 
 ### Algorithm
@@ -264,7 +269,8 @@ Enter 3 numbers: -5 -10 -2
 Max = -2
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
- 
+
+<a id="assignment6"></a>
 ## 6. Write a C program to check whether a number is even or odd using if-else statement.
 
 ### Algorithm
@@ -300,7 +306,8 @@ Enter a number: 0
 Even
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
- 
+
+<a id="assignment7"></a>
 ## 7. Write a C program to check whether a year is leap or not using if-else statement.
 
 ### Algorithm
@@ -337,8 +344,9 @@ Enter a year: 2000
 Leap Year
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
- 
-## 8. Write a C program to find all roots of a quadratic equation ax² + bx + c = 0 for all possible combinations of a, b and c.
+
+<a id="assignment8"></a>
+## 8. Write a C program to find all roots of a quadratic equation ax^2 + bx + c = 0 for all possible combinations of a, b and c.
 
 ### Algorithm
 1. START  
@@ -411,7 +419,7 @@ Error: 'a' cannot be zero for a quadratic equation.
 
 <h1 align="center">Practice Problems</h1>
 
-
+<a id="practice1"></a>
 ## 1. Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary. [Though his basic salary is given, do this program where basic is taken through keyboard].
 
 ### Algorithm
@@ -452,7 +460,8 @@ Gross Salary = 14242.50
 
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
- 
+
+<a id="practice2"></a>
 ## 2. The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.
 
 ### Algorithm
@@ -497,7 +506,8 @@ Circle - Area: 314.16, Circumference: 62.83
 
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
- 
+
+<a id="practice3"></a>
 ## 3. Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.
 
 ### Algorithm
@@ -546,7 +556,8 @@ Enter the three sides: 1 2 5
 Error: The given sides do not form a valid triangle.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
- 
+
+<a id="practice4"></a>
 ## 4. Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.
 
 ### Algorithm
