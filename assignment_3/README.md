@@ -8,20 +8,20 @@
 
 |  **Assignment Programs** |  **Practice Problems** |
 |---|---|
-| [**#1** Natural Numbers & Sum](#1-write-a-c-program-to-print-natural-numbers-from-1-to-n-and-also-print-their-sum) | [**#1** Swap First & Last Digits](#1-write-a-c-program-to-swap-first-and-last-digits-of-a-number) |
-| [**#2** Palindrome Number Checker](#2-write-a-c-program-to-check-whether-a-number-is-palindrome-or-not) | [**#2** Count Digits & Sum & Product](#2-write-a-c-program-to-count-number-of-digits-in-a-number-and-also-their-sum-and-product) |
-| [**#3** Find All Factors](#3-write-a-c-program-to-find-all-factors-of-a-number) | [**#3** Multiplication Table](#3-write-a-c-program-to-print-multiplication-table-of-any-number) |
-| [**#4** Factorial Calculator](#4-write-a-c-program-to-calculate-factorial-of-a-number) | [**#4** Print Alphabets](#4-write-a-c-program-to-print-all-alphabets-from-a-to-z) |
-| [**#5** HCF & LCM Calculator](#5-write-a-c-program-to-find-hcf-gcd-and-lcm-of-two-numbers) | [**#5** Odd & Even Numbers Sum](#5-write-a-c-program-to-print-all-odd-and-even-numbers-between-1-to-n-and-also-print-their-sum) |
-| [**#6** Prime Number Checker](#6-write-a-c-program-to-check-whether-a-number-is-prime-or-not) | [**#6** Prime Factors](#6-write-a-c-program-to-find-all-prime-factors-of-a-number) |
-| [**#7** Print Prime Numbers](#7-write-a-c-program-to-print-all-prime-numbers-between-1-to-n) | [**#7** Series Calculator](#7-write-a-c-program-to-find-value-of-series-y--1--x22--x33----xnn) |
-| [**#8** Armstrong Number Checker](#8-write-a-c-program-to-check-whether-a-number-is-armstrong-or-not) | [**#8** Power Calculator](#8-write-a-c-program-to-find-power-of-a-number-using-for-loop) |
-| [**#9** Perfect Number Checker](#9-write-a-c-program-to-check-whether-a-number-is-perfect-or-not) | [**#9** Armstrong Numbers in Range](#9-write-a-c-program-to-print-all-armstrong-numbers-between-1-to-n) |
-| [**#10** Strong Number Checker](#10-write-a-c-program-to-check-whether-a-number-is-strong-number-or-not) | [**#10** Perfect Numbers in Range](#10-write-a-c-program-to-print-all-perfect-numbers-between-1-to-n) |
-| [**#11** Fibonacci Series](#11-write-a-c-program-to-print-fibonacci-series-up-to-n-terms) | [**#11** Strong Numbers in Range](#11-write-a-c-program-to-print-all-strong-numbers-between-1-to-n) |
-| [**#12** Harmonic Series](#12-write-a-c-program-to-find-value-of-series-y--1--12--13----1n) | [**#12** Cos Series Calculator](#12-write-a-c-program-to-find-value-of-cos-series) |
-| [**#13** Sin Series Calculation](#13-write-a-c-program-to-find-value-of-sin-series) | [**#13** Fibonacci in Range](#13-write-a-c-program-to-print-fibonacci-series-within-a-certain-range) |
-|  | [**#14** Binary-Decimal Converter](#14-write-a-c-program-to-convert-binary-to-decimal-number-and-decimal-to-binary-number) |
+| [**#1** Natural Numbers & Sum](#assignment1) | [**#1** Swap First & Last Digits](#practice1) |
+| [**#2** Palindrome Number Checker](#assignment2) | [**#2** Count Digits & Sum & Product](#practice2) |
+| [**#3** Find All Factors](#assignment3) | [**#3** Multiplication Table](#practice3) |
+| [**#4** Factorial Calculator](#assignment4) | [**#4** Print Alphabets](#practice4) |
+| [**#5** HCF & LCM Calculator](#assignment5) | [**#5** Odd & Even Numbers Sum](#practice5) |
+| [**#6** Prime Number Checker](#assignment6) | [**#6** Prime Factors](#practice6) |
+| [**#7** Print Prime Numbers](#assignment7) | [**#7** Series Calculator](#practice7) |
+| [**#8** Armstrong Number Checker](#assignment8) | [**#8** Power Calculator](#practice8) |
+| [**#9** Perfect Number Checker](#assignment9) | [**#9** Armstrong Numbers in Range](#practice9) |
+| [**#10** Strong Number Checker](#assignment10) | [**#10** Perfect Numbers in Range](#practice10) |
+| [**#11** Fibonacci Series](#assignment11) | [**#11** Strong Numbers in Range](#practice11) |
+| [**#12** Harmonic Series](#assignment12) | [**#12** Cos Series Calculator](#practice12) |
+| [**#13** Sin Series Calculation](#assignment13) | [**#13** Fibonacci in Range](#practice13) |
+|  | [**#14** Binary-Decimal Converter](#practice14) |
 
 </div>
 
@@ -33,6 +33,7 @@
 
 <h1 align="center">Assignment Programs</h1>
 
+<a id="assignment1"></a>
 ## 1. Write a C program to print natural numbers from 1 to n and also print their sum.
 
 ### Algorithm
@@ -81,6 +82,7 @@ Sum of natural numbers from 1 to 10 = 55
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment2"></a>
 ## 2. Write a C program to check whether a number is palindrome or not.
 
 ### Algorithm
@@ -133,6 +135,7 @@ Enter an integer: -121
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment3"></a>
 ## 3. Write a C program to find all factors of a number.
 
 ### Algorithm
@@ -172,6 +175,7 @@ Factors of 1 are: 1
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment4"></a>
 ## 4. Write a C program to calculate factorial of a number.
 
 ### Algorithm
@@ -215,6 +219,7 @@ Factorial is not defined for negative numbers.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment5"></a>
 ## 5. Write a C program to find HCF (GCD) and LCM of two numbers.
 
 ### Algorithm
@@ -264,6 +269,7 @@ LCM of 7 and 13 = 91
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment6"></a>
 ## 6. Write a C program to check whether a number is Prime number or not.
 
 ### Algorithm
@@ -312,6 +318,7 @@ Enter a number: 2
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment7"></a>
 ## 7. Write a C program to print all prime numbers between 1 to n.
 
 ### Algorithm
@@ -353,6 +360,7 @@ Prime numbers between 1 and 20 are:
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment8"></a>
 ## 8. Write a C program to check whether a number is Armstrong number or not.
 
 ### Algorithm
@@ -402,6 +410,7 @@ Enter a number: 371
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment9"></a>
 ## 9. Write a C program to check whether a number is Perfect number or not.
 
 ### Algorithm
@@ -445,6 +454,7 @@ Enter a number: 8
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment10"></a>
 ## 10. Write a C program to check whether a number is Strong number or not.
 
 ### Algorithm
@@ -488,6 +498,7 @@ Enter a number: 123
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment11"></a>
 ## 11. Write a C program to print Fibonacci series up to n terms.
 
 ### Algorithm
@@ -527,6 +538,7 @@ Fibonacci series up to 8 terms:
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment12"></a>
 ## 12. Write a C program to find value of series: y = 1 + 1/2 + 1/3 + ... + 1/n.
 
 ### Algorithm
@@ -559,6 +571,7 @@ Sum of series = 2.283333
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="assignment13"></a>
 ## 13. Write a C program to find value of sin series.
 
 ### Algorithm
@@ -605,6 +618,7 @@ Value of sin series: 1.000000
 
 <h1 align="center">Practice Problems</h1>
 
+<a id="practice1"></a>
 ## 1. Write a C program to swap first and last digits of a number.
 
 ### Algorithm
@@ -657,6 +671,7 @@ Number after swapping first and last digits: 487659
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice2"></a>
 ## 2. Write a C program to count number of digits in a number and also their sum and product.
 
 ### Algorithm
@@ -711,6 +726,7 @@ Product of digits: 1
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice3"></a>
 ## 3. Write a C program to print multiplication table of any number.
 
 ### Algorithm
@@ -757,6 +773,7 @@ Multiplication table of 5:
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice4"></a>
 ## 4. Write a C program to print all alphabets from a to z.
 
 ### Algorithm
@@ -789,6 +806,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice5"></a>
 ## 5. Write a C program to print all odd and even numbers between 1 to n and also print their sum.
 
 ### Algorithm
@@ -834,6 +852,7 @@ Sum of even numbers: 30
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice6"></a>
 ## 6. Write a C program to find all prime factors of a number.
 
 ### Algorithm
@@ -878,6 +897,7 @@ Prime factors of 60 are: 2 3 5
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice7"></a>
 ## 7. Write a C program to find value of series: y = 1 + x^2/2! + x^3/3! + ... + x^n/n!.
 
 ### Algorithm
@@ -918,6 +938,7 @@ Value of the series y = 7.266667
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice8"></a>
 ## 8. Write a C program to find power of a number using for loop.
 
 ### Algorithm
@@ -951,6 +972,7 @@ Enter exponent: 5
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice9"></a>
 ## 9. Write a C program to print all Armstrong numbers between 1 to n.
 
 ### Algorithm
@@ -1002,6 +1024,7 @@ Armstrong numbers between 1 to 1000 are:
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice10"></a>
 ## 10. Write a C program to print all Perfect numbers between 1 to n.
 
 ### Algorithm
@@ -1043,6 +1066,7 @@ Perfect numbers between 1 to 100 are:
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice11"></a>
 ## 11. Write a C program to print all Strong numbers between 1 to n.
 
 ### Algorithm
@@ -1090,6 +1114,7 @@ Strong numbers between 1 to 200 are:
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice12"></a>
 ## 12. Write a C program to find value of cos series.
 
 ### Algorithm
@@ -1128,6 +1153,7 @@ Value of cos(1.57) = 0.000008
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice13"></a>
 ## 13. Write a C program to print Fibonacci series within a certain range.
 
 ### Algorithm
@@ -1180,6 +1206,7 @@ Fibonacci series between 0 and 20:
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
+<a id="practice14"></a>
 ## 14. Write a C program to convert binary to decimal number and decimal to binary number.
 
 ### Algorithm
