@@ -1,4 +1,4 @@
-//2. Write a C program to count number of digits in a number and also their sum and product.
+// P2. Write a C program to count number of digits in a number and also their sum and product.
 
 #include <stdio.h>
 

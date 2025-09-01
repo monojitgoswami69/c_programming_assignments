@@ -1,4 +1,4 @@
-//9. Write a C program to print all Armstrong numbers between 1 to n.
+// P9. Write a C program to print all Armstrong numbers between 1 to n.
 
 #include <stdio.h>
 #include <math.h>

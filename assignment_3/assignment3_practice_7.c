@@ -1,4 +1,4 @@
-//7. Write a C program to find value of following series: y = 1 + x^2/2! + x^3/3! + ... + x^n/n!
+// P7. Write a C program to find value of following series: y = 1 + x^2/2! + x^3/3! + ... + x^n/n!
 
 #include <stdio.h>
 int main() {

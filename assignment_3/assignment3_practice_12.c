@@ -1,4 +1,4 @@
-//12. Write a C program to find value of cos series.
+// P12. Write a C program to find value of cos series.
 
 #include <stdio.h>
 int main() {

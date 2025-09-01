@@ -1,4 +1,4 @@
-//10. Write a C program to print all Perfect numbers between 1 to n.
+// P10. Write a C program to print all Perfect numbers between 1 to n.
 
 #include <stdio.h>
 int isPerfect(int num) {

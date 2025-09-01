@@ -1,4 +1,4 @@
-//11. Write a C program to print all Strong numbers between 1 to n.
+// P11. Write a C program to print all Strong numbers between 1 to n.
 
 #include <stdio.h>
 int factorial(int n) {

@@ -1,4 +1,4 @@
-//1. Write a C program to swap first and last digits of a number.
+// P1. Write a C program to swap first and last digits of a number.
 
 #include <stdio.h>
 #include <math.h>

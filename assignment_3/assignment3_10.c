@@ -1,4 +1,4 @@
-//10. Write a C program to check whether a number is Strong number or not.
+// 10. Write a C program to check whether a number is Strong number or not.
 
 #include <stdio.h>
 int main() {

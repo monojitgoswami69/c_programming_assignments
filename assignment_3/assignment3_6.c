@@ -1,4 +1,4 @@
-//6. Write a C program to check whether a number is Prime number or not.
+// 6. Write a C program to check whether a number is Prime number or not.
 
 #include <stdio.h>
 

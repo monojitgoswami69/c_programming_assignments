@@ -1,4 +1,4 @@
-//12. Write a C program to find value of following series: y = 1 + 1/2 + 1/3 + ... + 1/n
+// 12. Write a C program to find value of following series: y = 1 + 1/2 + 1/3 + ... + 1/n
 
 #include <stdio.h>
 int main() {

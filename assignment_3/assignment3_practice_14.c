@@ -1,4 +1,4 @@
-//14. Write a C program to convert binary to decimal number and decimal to binary number.
+// P14. Write a C program to convert binary to decimal number and decimal to binary number.
 
 #include <stdio.h>
 int main() {

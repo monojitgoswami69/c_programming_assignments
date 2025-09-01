@@ -1,4 +1,4 @@
-//3. Write a C program to print multiplication table of any number.
+// P3. Write a C program to print multiplication table of any number.
 
 #include <stdio.h>
 

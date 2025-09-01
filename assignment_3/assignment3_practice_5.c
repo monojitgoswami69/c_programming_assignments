@@ -1,4 +1,4 @@
-//5. Write a C program to print all odd and even numbers between 1 to n and also print their sum.
+// P5. Write a C program to print all odd and even numbers between 1 to n and also print their sum.
 
 #include <stdio.h>
 int main() {

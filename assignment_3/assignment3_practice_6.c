@@ -1,4 +1,4 @@
-//6. Write a C program to find all prime factors of a number.
+// P6. Write a C program to find all prime factors of a number.
 
 #include <stdio.h>
 

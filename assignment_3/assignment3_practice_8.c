@@ -1,4 +1,4 @@
-//8. Write a C program to find power of a number using for loop.
+// P8. Write a C program to find power of a number using for loop.
 
 #include <stdio.h>
 int main() {
