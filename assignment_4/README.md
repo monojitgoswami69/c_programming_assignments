@@ -8,14 +8,14 @@
 
 |  **Assignment Programs** |  **Practice Problems** |
 |---|---|
-| [**#1** Asterisk Pattern](#assignment1) | [**#1** Alphabet Pattern (A, BC, CDE...)](#practice1) |
-| [**#2** Number Pattern](#assignment2) | [**#2** Reverse Character Pattern (DCBA, CBA...)](#practice2) |
-| [**#3** Number Triangle Pattern](#assignment3) | [**#3** Mirrored Alphabet Pattern](#practice3) |
-| [**#4** Pyramidal Number Pattern](#assignment4) | [**#4** Star Pyramid Pattern](#practice4) |
-| [**#5** Pascal Triangle](#assignment5) | [**#5** Binary Pattern (0101...)](#practice5) |
-|  | [**#6** Reverse Number Pattern](#practice6) |
-|  | [**#7** Alphabet Descending Pattern](#practice7) |
-|  | [**#8** Fixed Binary Pattern](#practice8) |
+| [**#1** Asterisk Pattern](#assignment1) | [**#P1** Alphabet Pattern (A, BC, CDE...)](#practiceP1) |
+| [**#2** Number Pattern](#assignment2) | [**#P2** Reverse Character Pattern (DCBA, CBA...)](#practiceP2) |
+| [**#3** Number Triangle Pattern](#assignment3) | [**#P3** Mirrored Alphabet Pattern](#practiceP3) |
+| [**#4** Pyramidal Number Pattern](#assignment4) | [**#P4** Star Pyramid Pattern](#practiceP4) |
+| [**#5** Pascal Triangle](#assignment5) | [**#P5** Binary Pattern (0101...)](#practiceP5) |
+|  | [**#P6** Reverse Number Pattern](#practiceP6) |
+|  | [**#P7** Alphabet Descending Pattern](#practiceP7) |
+|  | [**#P8** Fixed Binary Pattern](#practiceP8) |
 
 </div>
 
@@ -286,8 +286,8 @@ Enter the number of rows: 5
 
 <h1 align="center">Practice Problems</h1>
 
-<a id="practice1"></a>
-## 1. Write a C program for the following pattern:
+<a id="practiceP1"></a>
+## P1. Write a C program for the following pattern:
 
 ```
 A
@@ -337,8 +337,8 @@ D E F G
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice2"></a>
-## 2. Write a C program for the following pattern:
+<a id="practiceP2"></a>
+## P2. Write a C program for the following pattern:
 
 ```
 D D D D
@@ -390,8 +390,8 @@ D D D D
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice3"></a>
-## 3. Write a C program for the following pattern:
+<a id="practiceP3"></a>
+## P3. Write a C program for the following pattern:
 
 ```
 A           A
@@ -447,8 +447,8 @@ A B C D C B A
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice4"></a>
-## 4. Write a C program for the following pattern:
+<a id="practiceP4"></a>
+## P4. Write a C program for the following pattern:
 
 ```
       *
@@ -496,8 +496,8 @@ Enter the number of rows: 4
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice5"></a>
-## 5. Write a C program for the following pattern:
+<a id="practiceP5"></a>
+## P5. Write a C program for the following pattern:
 
 ```
 1
@@ -545,8 +545,8 @@ Enter the number of rows: 4
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice6"></a>
-## 6. Write a C program for the following pattern:
+<a id="practiceP6"></a>
+## P6. Write a C program for the following pattern:
 
 ```
 15 14 13 12 11
@@ -595,8 +595,8 @@ Enter the number of rows: 5
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice7"></a>
-## 7. Write a C program for the following pattern:
+<a id="practiceP7"></a>
+## P7. Write a C program for the following pattern:
 
 ```
 D C B A
@@ -646,8 +646,8 @@ D C B A
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice8"></a>
-## 8. Write a C program for the following pattern:
+<a id="practiceP8"></a>
+## P8. Write a C program for the following pattern:
 
 ```
 1 0 1
