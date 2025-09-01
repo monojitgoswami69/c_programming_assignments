@@ -1,4 +1,4 @@
-// Write a C program to find area of a triangle Area of triangle using Heron's formula
+// P3. Write a C program to find area of a triangle Area of triangle using Heron's formula
 
 #include <stdio.h>
 #include <math.h>

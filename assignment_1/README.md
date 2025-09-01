@@ -8,10 +8,10 @@
 
 |  **Assignment Programs** |  **Practice Problems** |
 |---|---|
-| [**#1** Sum of Two Numbers](#assignment1) | [**#1** Gross Salary Calculator](#practice1) |
-| [**#2** Arithmetic Operations](#assignment2) | [**#2** Rectangle & Circle Calculator](#practice2) |
-| [**#3** Rectangle & Circle Geometry](#assignment3) | [**#3** Triangle Area (Heron's Formula)](#practice3) |
-| [**#4** Number Swapping](#assignment4) | [**#4** Electricity Bill Calculator](#practice4) |
+| [**#1** Sum of Two Numbers](#assignment1) | [**#P1** Gross Salary Calculator](#practiceP1) |
+| [**#2** Arithmetic Operations](#assignment2) | [**#P2** Rectangle & Circle Calculator](#practiceP2) |
+| [**#3** Rectangle & Circle Geometry](#assignment3) | [**#P3** Triangle Area (Heron's Formula)](#practiceP3) |
+| [**#4** Number Swapping](#assignment4) | [**#P4** Electricity Bill Calculator](#practiceP4) |
 | [**#5** Maximum of Three Numbers](#assignment5) |  |
 | [**#6** Even/Odd Checker](#assignment6) |  |
 | [**#7** Leap Year Checker](#assignment7) |  |
@@ -419,8 +419,8 @@ Error: 'a' cannot be zero for a quadratic equation.
 
 <h1 align="center">Practice Problems</h1>
 
-<a id="practice1"></a>
-## 1. Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary. [Though his basic salary is given, do this program where basic is taken through keyboard].
+<a id="practiceP1"></a>
+## P1. Mr. Sayan Ghosh is an employee of a Private Firm. His Basic is Rs. 5500/-. Now the dearness allowance is 74% of his basic salary and house rent allowance is 15% of basic salary. Write a program to calculate his gross salary. [Though his basic salary is given, do this program where basic is taken through keyboard].
 
 ### Algorithm
 1. START  
@@ -461,8 +461,8 @@ Gross Salary = 14242.50
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice2"></a>
-## 2. The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.
+<a id="practiceP2"></a>
+## P2. The length and breadth of a rectangle and radius of a circle are input through keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and the circumference of the circle.
 
 ### Algorithm
 1. START  
@@ -507,8 +507,8 @@ Circle - Area: 314.16, Circumference: 62.83
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice3"></a>
-## 3. Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.
+<a id="practiceP3"></a>
+## P3. Write a C program to find area of a triangle. Area of triangle = √s(s−a)(s−b)(s−c), where a, b and c are three sides of the triangle and s = (a + b + c) / 2.
 
 ### Algorithm
 1. START  
@@ -557,8 +557,8 @@ Error: The given sides do not form a valid triangle.
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice4"></a>
-## 4. Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.
+<a id="practiceP4"></a>
+## P4. Write a C program to calculate and print electricity bill for consumer @Rs.3.75 per unit, given the following information: previous meter reading and current reading.
 
 ### Algorithm
 1. START  
