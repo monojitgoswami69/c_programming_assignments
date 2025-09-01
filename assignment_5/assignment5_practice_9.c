@@ -1,4 +1,4 @@
-// 9. Write a C program to delete all duplicate elements from an array.
+// P9. Write a C program to delete all duplicate elements from an array.
 
 #include <stdio.h>
 int main(){
@@ -17,7 +17,6 @@ int main(){
     }
     printf("\n");
     
-    // Remove duplicates
     for (i = 0; i < n; i++){
         for (j = i + 1; j < n; j++){
             if (arr[i] == arr[j]){
@@ -35,6 +34,5 @@ int main(){
         printf("%d ", arr[i]);
     }
     printf("\n");
-    printf("New array size: %d\n", n);
     return 0;
 }

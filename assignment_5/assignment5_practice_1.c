@@ -1,4 +1,4 @@
-// 1. Write a C program to calculate the sum of all negative and positive elements in an array.
+// P1. Write a C program to calculate the sum of all negative and positive elements in an array.
 
 #include <stdio.h>
 int main(){

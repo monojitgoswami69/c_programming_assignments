@@ -8,15 +8,16 @@
 
 |  **Assignment Programs** |  **Practice Problems** |
 |---|---|
-| [**#1** Sum of Array Elements](#assignment1) | [**#1** Sum of Positive and Negative Elements](#practice1) |
-| [**#2** Insert and Delete Array Elements](#assignment2) | [**#2** Find Maximum and Minimum Elements](#practice2) |
-| [**#3** Bubble Sort](#assignment3) | [**#3** Find Second Largest Element](#practice3) |
-| [**#4** Selection Sort](#assignment4) | [**#4** Mean, Variance, Standard Deviation](#practice4) |
-| [**#5** Linear Search](#assignment5) | [**#5** Binary Search](#practice5) |
-|  | [**#6** Modified Bubble Sort](#practice6) |
-|  | [**#7** Insertion Sort](#practice7) |
-|  | [**#8** Element Frequency Counter](#practice8) |
-|  | [**#9** Remove Duplicate Elements](#practice9) |
+| [**#1** Sum of Array Elements](#assignment1) | [**#P1** Sum of Positive and Negative Elements](#practiceP1) |
+| [**#2** Insert and Delete Array Elements](#assignment2) | [**#P2** Find Maximum and Minimum Elements](#practiceP2) |
+| [**#3** Bubble Sort](#assignment3) | [**#P3** Find Second Largest Element](#practiceP3) |
+| [**#4** Selection Sort](#assignment4) | [**#P4** Mean, Variance, Standard Deviation](#practiceP4) |
+| [**#5** Linear Search](#assignment5) | [**#P5** Binary Search](#practiceP5) |
+|  | [**#P6** Modified Bubble Sort](#practiceP6) |
+|  | [**#P7** Insertion Sort](#practiceP7) |
+|  | [**#P8** Element Frequency Counter](#practiceP8) |
+|  | [**#P9** Remove Duplicate Elements](#practiceP9) |
+|  | [**#P10** Left and Right Array Rotation](#practiceP10) |
 
 </div>
 
@@ -216,7 +217,7 @@ int main(){
         }
     }
     
-    printf("Array after sorting (ascending): ");
+    printf("Array after sorting: ");
     for (i = 0; i < n; i++){
         printf("%d ", arr[i]);
     }
@@ -230,12 +231,12 @@ int main(){
 Enter the number of elements: 5
 Enter 5 elements: 64 34 25 12 22
 Array before sorting: 64 34 25 12 22
-Array after sorting (ascending): 12 22 25 34 64
+Array after sorting: 12 22 25 34 64
 
 Enter the number of elements: 6
 Enter 6 elements: 5 2 8 1 9 3
 Array before sorting: 5 2 8 1 9 3
-Array after sorting (ascending): 1 2 3 5 8 9
+Array after sorting: 1 2 3 5 8 9
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
@@ -285,7 +286,7 @@ int main(){
         arr[i] = temp;
     }
     
-    printf("Array after sorting (ascending): ");
+    printf("Array after sorting: ");
     for (i = 0; i < n; i++){
         printf("%d ", arr[i]);
     }
@@ -299,12 +300,12 @@ int main(){
 Enter the number of elements: 5
 Enter 5 elements: 64 25 12 22 11
 Array before sorting: 64 25 12 22 11
-Array after sorting (ascending): 11 12 22 25 64
+Array after sorting: 11 12 22 25 64
 
 Enter the number of elements: 4
 Enter 4 elements: 29 10 14 37
 Array before sorting: 29 10 14 37
-Array after sorting (ascending): 10 14 29 37
+Array after sorting: 10 14 29 37
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
@@ -376,8 +377,8 @@ Element 200 found at position 2
 
 <h1 align="center">Practice Problems</h1>
 
-<a id="practice1"></a>
-## 1. Write a C program to calculate the sum of all negative and positive elements in an array.
+<a id="practiceP1"></a>
+## P1. Write a C program to calculate the sum of all negative and positive elements in an array.
 
 ### Algorithm
 1. START
@@ -436,8 +437,8 @@ Sum of negative elements = 0
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice2"></a>
-## 2. Write a C program to find maximum and minimum element in an array (without sorting).
+<a id="practiceP2"></a>
+## P2. Write a C program to find maximum and minimum element in an array (without sorting).
 
 ### Algorithm
 1. START
@@ -499,8 +500,8 @@ Minimum element = 100
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice3"></a>
-## 3. Write a C program to find the second largest element from an array (without sorting).
+<a id="practiceP3"></a>
+## P3. Write a C program to find the second largest element from an array (without sorting).
 
 ### Algorithm
 1. START
@@ -567,8 +568,8 @@ No second largest element found (all elements are same)
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice4"></a>
-## 4. Write a C program to find the arithmetic mean, variance and standard deviation of any n values.
+<a id="practiceP4"></a>
+## P4. Write a C program to find the arithmetic mean, variance and standard deviation of any n values.
 
 ### Algorithm
 1. START
@@ -615,20 +616,20 @@ int main(){
 ```text
 Enter the number of values: 5
 Enter 5 values: 10 20 30 40 50
-Mean (μ) = 30.00
-Variance (θ) = 200.00
-Standard Deviation (σ) = 14.14
+Mean = 30.00
+Variance = 200.00
+Standard Deviation = 14.14
 
 Enter the number of values: 4
 Enter 4 values: 2.5 4.5 6.5 8.5
-Mean (μ) = 5.50
-Variance (θ) = 4.50
-Standard Deviation (σ) = 2.12
+Mean = 5.50
+Variance = 4.50
+Standard Deviation = 2.12
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice5"></a>
-## 5. Write a C program to search the any elements from an array using binary search technique.
+<a id="practiceP5"></a>
+## P5. Write a C program to search the any elements from an array using binary search technique.
 
 ### Algorithm
 1. START
@@ -718,8 +719,8 @@ Element 100 not found in the array
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice6"></a>
-## 6. Write a C program to sort the all elements of an array in ascending order using modified bubble sort technique.
+<a id="practiceP6"></a>
+## P6. Write a C program to sort the all elements of an array in ascending order using modified bubble sort technique.
 
 ### Algorithm
 1. START
@@ -790,8 +791,8 @@ Array after modified bubble sort: 1 2 3 4 5 6
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice7"></a>
-## 7. Write a C program to sort the all elements of an array in ascending order using insertion sort technique.
+<a id="practiceP7"></a>
+## P7. Write a C program to sort the all elements of an array in ascending order using insertion sort technique.
 
 ### Algorithm
 1. START
@@ -857,8 +858,8 @@ Array after insertion sort: 1 2 3 4 5 6
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice8"></a>
-## 8. Write a C program to check the frequency of each elements in an array.
+<a id="practiceP8"></a>
+## P8. Write a C program to check the frequency of each elements in an array.
 
 ### Algorithm
 1. START
@@ -930,8 +931,8 @@ Element 30 appears 1 time(s)
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice9"></a>
-## 9. Write a C program to delete all duplicate elements from an array.
+<a id="practiceP9"></a>
+## P9. Write a C program to delete all duplicate elements from an array.
 
 ### Algorithm
 1. START
@@ -997,5 +998,93 @@ Enter 6 elements: 10 20 10 30 20 40
 Original array: 10 20 10 30 20 40
 Array after removing duplicates: 10 20 30 40
 New array size: 4
+```
+<div align="right"><a href="#index">return to index</a></div><hr>
+
+<a id="practiceP10"></a>
+## P10. Write a C program to left rotate and right rotate an array.
+
+### Algorithm
+
+1. START
+2. Accept the number of elements `n`
+3. Accept `n` array elements
+4. Accept the number of positions to rotate `d`
+5. For left rotation:
+   - Create a temporary array
+   - For each position `i`, place `arr[(i + d) % n]` in `temp[i]`
+   - Copy temp array back to original array
+6. For right rotation:
+   - Create a temporary array
+   - For each position `i`, place `arr[(i - d + n) % n]` in `temp[i]`
+   - Copy temp array back to original array
+7. Display both rotated arrays
+8. STOP
+
+### Source Code
+```c
+#include <stdio.h>
+
+void leftRotate(int arr[], int d, int n) {
+    int temp[n];
+    for (int i = 0; i < n; i++) {
+        temp[i] = arr[(i + d) % n];
+    }
+    for (int i = 0; i < n; i++) {
+        arr[i] = temp[i];
+    }
+}
+
+void rightRotate(int arr[], int d, int n) {
+    int temp[n];
+    for (int i = 0; i < n; i++) {
+        temp[i] = arr[(i - d + n) % n];
+    }
+    for (int i = 0; i < n; i++) {
+        arr[i] = temp[i];
+    }
+}
+
+int main() {
+    int  n, d;
+
+    printf("Enter the number of elements in the array: ");
+    scanf("%d", &n);
+
+    int arr[n];
+
+    printf("Enter the elements of the array: ");
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    printf("Enter the number of positions to rotate: ");
+    scanf("%d", &d);
+
+    leftRotate(arr, d, n);
+    printf("Left rotated array: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    rightRotate(arr, d, n);
+    printf("Right rotated array: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+```
+
+### Sample Output
+```
+Enter the number of elements in the array: 5
+Enter the elements of the array: 1 2 3 4 5
+Enter the number of positions to rotate: 2
+Left rotated array: 3 4 5 1 2 
+Right rotated array: 4 5 1 2 3 
 ```
 <div align="right"><a href="#index">return to index</a></div><hr>

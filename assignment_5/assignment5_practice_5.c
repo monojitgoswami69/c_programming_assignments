@@ -1,4 +1,4 @@
-// 5. Write a C program to search the any elements from an array using binary search technique.
+// P5. Write a C program to search the any elements from an array using binary search technique.
 
 #include <stdio.h>
 int main(){

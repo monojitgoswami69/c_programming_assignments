@@ -1,4 +1,4 @@
-// 2. Write a C program to find maximum and minimum element in an array (without sorting).
+// P2. Write a C program to find maximum and minimum element in an array (without sorting).
 
 #include <stdio.h>
 int main(){

@@ -1,4 +1,4 @@
-// 8. Write a C program to check the frequency of each elements in an array.
+// P8. Write a C program to check the frequency of each elements in an array.
 
 #include <stdio.h>
 int main(){

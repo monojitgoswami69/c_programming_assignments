@@ -1,4 +1,4 @@
-// 4. Write a C program to find the arithmetic mean, variance and standard deviation of any n values.
+// P4. Write a C program to find the arithmetic mean, variance and standard deviation of any n values.
 
 #include <stdio.h>
 #include <math.h>

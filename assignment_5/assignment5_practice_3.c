@@ -1,4 +1,4 @@
-// 3. Write a C program to find the second largest element from an array (without sorting).
+// P3. Write a C program to find the second largest element from an array (without sorting).
 
 #include <stdio.h>
 int main(){

@@ -1,4 +1,4 @@
-// 7. Write a C program to sort the all elements of an array in ascending order using insertion sort technique.
+// P7. Write a C program to sort the all elements of an array in ascending order using insertion sort technique.
 
 #include <stdio.h>
 int main(){

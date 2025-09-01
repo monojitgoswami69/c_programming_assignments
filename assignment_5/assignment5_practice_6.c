@@ -1,4 +1,4 @@
-// 6. Write a C program to sort the all elements of an array in ascending order using modified bubble sort technique.
+// P6. Write a C program to sort the all elements of an array in ascending order using modified bubble sort technique.
 
 #include <stdio.h>
 int main(){
