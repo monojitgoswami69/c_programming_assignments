@@ -1,4 +1,4 @@
-// 2. Write a C program to check whether a number is even or odd using switch-case statement
+// P2. Write a C program to check whether a number is even or odd using switch-case statement
 
 #include <stdio.h>
 int main(){

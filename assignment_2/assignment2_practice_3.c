@@ -1,4 +1,4 @@
-// 3. Write a C program to create Simple Calculator using switch case.
+// P3. Write a C program to create Simple Calculator using switch case.
 
 #include <stdio.h>
 int main(){

@@ -1,4 +1,4 @@
-// Write a C program to check whether a number is positive, negative or zero using switch case
+// 2. Write a C program to check whether a number is positive, negative or zero using switch case
 
  // approach 1
  #include <stdio.h>

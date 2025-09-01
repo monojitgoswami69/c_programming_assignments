@@ -8,11 +8,11 @@
 
 |  **Assignment Programs** |  **Practice Problems** |
 |---|---|
-| [**#1** Vowel/Consonant Checker (Switch-Case)](#assignment1) | [**#1** Electric Bill Calculator](#practice1) |
-| [**#2** Positive/Negative/Zero Checker (Switch-Case)](#assignment2) | [**#2** Even/Odd Checker (Switch-Case)](#practice2) |
-| [**#3** Function Calculator](#assignment3)<br>&nbsp;&nbsp;&nbsp;&nbsp;[3.1 If-Else-If](#assignment3-1)<br>&nbsp;&nbsp;&nbsp;&nbsp;[3.2 Switch-Case](#assignment3-2) | [**#3** Simple Calculator (Switch-Case)](#practice3) |
-| [**#4** Maximum of Three Numbers (Ternary)](#assignment4) | [**#4** Maximum of Two Numbers (Switch-Case)](#practice4) |
-|  | [**#5** Student Grade Calculator](#practice5)<br>&nbsp;&nbsp;&nbsp;&nbsp;[5.1 If-Else-If](#practice5-1)<br>&nbsp;&nbsp;&nbsp;&nbsp;[5.2 Switch-Case](#practice5-2) |
+| [**#1** Vowel/Consonant Checker (Switch-Case)](#assignment1) | [**#P1** Electric Bill Calculator](#practiceP1) |
+| [**#2** Positive/Negative/Zero Checker (Switch-Case)](#assignment2) | [**#P2** Even/Odd Checker (Switch-Case)](#practiceP2) |
+| [**#3** Function Calculator](#assignment3)<br>&nbsp;&nbsp;&nbsp;[3.1 If-Else-If](#assignment3-1)<br>&nbsp;&nbsp;&nbsp;[3.2 Switch-Case](#assignment3-2) | [**#P3** Simple Calculator (Switch-Case)](#practiceP3) |
+| [**#4** Maximum of Three Numbers (Ternary)](#assignment4) | [**#P4** Maximum of Two Numbers (Switch-Case)](#practiceP4) |
+|  | [**#P5** Student Grade Calculator](#practiceP5)<br>&nbsp;&nbsp;&nbsp;[P5.1 If-Else-If](#practiceP5-1)<br>&nbsp;&nbsp;&nbsp;[P5.2 Switch-Case](#practiceP5-2) |
 
 </div>
 
@@ -280,8 +280,8 @@ Max = 10
 
 <h1 align="center"> Practice Programs</h1>
 
-<a id="practice1"></a>
-## 1. Electric Bill Calculator
+<a id="practiceP1"></a>
+## P1. Electric Bill Calculator
 
 **Problem Statement:** An electric distribution company arranges its domestic consumer billing as follows:
 
@@ -341,8 +341,8 @@ Bill = Rs. 612.50
 
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice2"></a>
-## 2. Write a C program to check whether a number is even or odd using switch-case statement
+<a id="practiceP2"></a>
+## P2. Write a C program to check whether a number is even or odd using switch-case statement
 
 ### Algorithm
 
@@ -381,8 +381,8 @@ Odd
 
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice3"></a>
-## 3. Write a C program to create Simple Calculator using switch case.
+<a id="practiceP3"></a>
+## P3. Write a C program to create Simple Calculator using switch case.
 
 ### Algorithm
 
@@ -436,8 +436,8 @@ Enter expression(a, operator, b)[operator -> +,-,*,/]: 4 * 2
 
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice4"></a>
-## 4. Write a C program to find maximum between two numbers using switch case
+<a id="practiceP4"></a>
+## P4. Write a C program to find maximum between two numbers using switch case
 
 ### Algorithm
 
@@ -479,8 +479,8 @@ Max = 33
 
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice5"></a>
-## 5. Student Grade Calculator
+<a id="practiceP5"></a>
+## P5. Student Grade Calculator
 
 **Problem Statement:** A student's grade is calculated in a subject according to the following rules:
 
@@ -497,7 +497,7 @@ Max = 33
 
 **Task:** Write a C Program which accepts a student's marks as input and determines the grade of the student in that subject.
 
-<a id="practice5-1"></a>
+<a id="practiceP5-1"></a>
 ## 5.1 Using If-Else-If
 
 ### Algorithm
@@ -560,7 +560,7 @@ INVALID
 
 <div align="right"><a href="#index">return to index</a></div><hr>
 
-<a id="practice5-2"></a>
+<a id="practiceP5-2"></a>
 ## 5.2 Using Switch-Case
 
 ### Algorithm
